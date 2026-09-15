@@ -129,6 +129,7 @@ cv:
           using a small pulsed LED.
 
       - title: A Machine Learning Approach to a Multidetector Array Response Function for Nuclear Search
+        url: /publications/#fobar2022multidetector
         authors:
           - David Fobar
           - W. Vanderlip
@@ -141,6 +142,7 @@ cv:
           array of radiation detectors back to a point source.
 
       - title: Considerations for Training an Artificial Neural Network for Particle Type Identification
+        url: /publications/#fobar2021ann
         authors:
           - David Fobar
           - A.S. Wilhelm
@@ -153,6 +155,7 @@ cv:
           gamma-ray radiation particles interacting in an organic scintillating radiation detector.
 
       - title: Robotic delivery of laser-induced breakdown spectroscopy for sensitive chlorine measurement in dry cask storage systems
+        url: /publications/#fobar2018robotic
         authors:
           - David Fobar
           - X. Xiao
@@ -160,7 +163,7 @@ cv:
           - S. Le Berre
           - A. Motta
           - I. Jovanovic
-        publisher: Spectrochimica Acta Part B, Atomic Spectroscopy
+        publisher: Progress in Nuclear Energy
         releaseDate: 2018-11-01
         summary: >-
           Developed a method of remotely characterizing chlorine deposition on the surface of
@@ -168,6 +171,7 @@ cv:
           canisters of spent nuclear fuel.
 
       - title: Measurement of chlorine concentration on steel surfaces via fiber-optic laser-induced breakdown spectroscopy in double-pulse configuration
+        url: /publications/#xiao2018measurement
         authors:
           - X. Xiao
           - S. Le Berre
@@ -185,40 +189,41 @@ cv:
 
     Conference Presentations & Publications:
       - bullet: >-
-          **Reconstructing Nuclear Fallout Fields with Scatterable Dosimeters** — K. Filip, D.
-          Fobar, S. Ague. 2024 IEEE Long Island Systems, Applications and Technology Conference.
+          **Reconstructing Nuclear Fallout Fields with Scatterable Dosimeters**
+          — K. Filip, D. Fobar, S. Ague. 2024 IEEE Long Island Systems, Applications and Technology Conference.
           Documented the wireless infrastructure and data processing necessary to localize
           sensors using differential time-of-arrival, filtered with a Kalman filter.
 
       - bullet: >-
-          **Gamma ray directionality from a tightly packed scintillator array** — D. Fobar, W.
-          Koch, T. Bruff, P. Chapman. Presentation at SORMA XIX, May 2023. Supplements the RADBOT
+          **Gamma ray directionality from a tightly packed scintillator array**
+          — D. Fobar, W. Koch, T. Bruff, P. Chapman. Presentation at SORMA XIX, May 2023. Supplements the RADBOT
           capstone and extends the Aug 2022 published work, using a physics-informed loss
           function with probabilistic weighting of source location.
 
       - bullet: >-
-          **Demonstration of a Low Power Imaging System for a Portable Time Projection Chamber** —
-          W. Koch, D. Fobar, T. Bruff, P. Chapman. Presentation at HEART, April 2023; pending
+          **Demonstration of a Low Power Imaging System for a Portable Time Projection Chamber**
+          — W. Koch, D. Fobar, T. Bruff, P. Chapman. Presentation at HEART, April 2023; pending
           publication in JRERE. Aims to provide real-time localization of fast neutron sources, a
           key indicator for special nuclear material.
 
       - bullet: >-
-          **Unsupervised Machine Learning Approaches to Nuclear Particle Type Classification** —
-          N. Liebers, J. Huckleberry, D. Ruiz, D. Fobar, P. Chapman. IEEE LISAT Conference
+          **Unsupervised Machine Learning Approaches to Nuclear Particle Type Classification**
+          — N. Liebers, J. Huckelberry, D. Ruiz, D. Fobar, P. Chapman. IEEE LISAT Conference
           Proceedings, May 2022. An unsupervised ML algorithm developed by cadets during a joint
           EECS/PANE independent research project.
 
     Other Publications:
       - bullet: >-
-          **The Imperative of Nuclear Literacy in Military Education: Insights from the NSERC
-          Nuclear Deterrence Staff Ride** — D. Fobar, T. Halbert. *Countering-WMD*, Fall/Winter 2025.
+          **[The Imperative of Nuclear Literacy in Military Education: Insights from the NSERC
+          Nuclear Deterrence Staff Ride](/publications/#fobar2025cwmd30)**
+          — D. Fobar, T. Halbert. *Countering-WMD*, Fall/Winter 2025.
 
       - bullet: >-
-          **Reconstructing Fallout Distributions: Using Convolutional Neural Networks to
-          Reconstruct Nuclear Fallout Distributions from SCatterable RAdiation Monitors (SCRAM)**
+          **[Reconstructing Fallout Distributions: Using Convolutional Neural Networks to
+          Reconstruct Nuclear Fallout Distributions from SCatterable RAdiation Monitors (SCRAM)](/publications/#filip2024cwmd28)**
           — K. Filip, D. Fobar, T. Halbert, S. Ague. *Countering-WMD*, Summer/Fall 2024.
 
       - bullet: >-
-          **Optimizing the Teaching of Technical Computing for C-WMD at West Point** — A.S.
-          Wilhelm, L. Phillips, D. Fobar. *Countering-WMD*, Summer/Fall 2020.
+          **[Optimizing the Teaching of Technical Computing for C-WMD at West Point](/publications/#wilhelm2020cwmd20)**
+          — A.S. Wilhelm, L. Phillips, D. Fobar. *Countering-WMD*, Summer/Fall 2020.
 

@@ -1,5 +1,14 @@
 # Maps a publication's bibtex `abbr` field to a link/color badge shown next to it.
 # Add one block per venue you publish in; replicate the pattern below for more.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TNS":
+  url: https://www.nss-ieee.org/publications/tns.html
+
+"PNE":
+  url: https://www.sciencedirect.com/journal/progress-in-nuclear-energy
+
+"SAB":
+  url: https://www.sciencedirect.com/journal/spectrochimica-acta-part-b-atomic-spectroscopy
+
+"CWMD":
+  url: https://www.usanca.army.mil/
