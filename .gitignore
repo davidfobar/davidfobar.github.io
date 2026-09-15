@@ -21,3 +21,6 @@ vendor
 # Python bytecode from bin/ helper scripts
 __pycache__/
 *.pyc
+
+
+claude_summaries.md

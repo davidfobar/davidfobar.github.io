@@ -1,69 +1,224 @@
 cv:
   name: David Fobar
-  label: Your Title
-  email: you@example.com
-  location: Your City, State
+  label: Leader, Educator, Researcher
+  email: david.fobar@gmail.com
+  location: Superior, CO
   image: ""
-  summary: One or two sentences describing who you are and what you do.
-
-  social_networks:
-    - network: X
-      username: example
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  summary: >-
+    Leader, Educator, Engineer, Researcher, Maker.
 
   address:
     street:
-    city:
-    region:
+    city: Superior
+    region: CO
     postalCode:
     countryCode:
 
-  # Each section below is an example of one entry. Replicate a block to add
-  # another entry of the same kind, or add a new "SectionName:" key for a
-  # section type not shown here (see docs/CUSTOMIZE.md upstream for the
-  # full list of supported section schemas).
+  # NOTE on section titles: the al_folio_cv gem only gives rich, dated-entry
+  # rendering to sections titled exactly "Experience" and "Publications".
+  # Any other section title falls back to a generic renderer that only
+  # understands single-line `bullet:` entries, so extra CV categories below
+  # (teaching detail, conference talks, etc.) use that `bullet:` shape.
   sections:
     Education:
-      - institution: Example University
-        location: City, Country
-        url: https://example.edu
-        area: Field of study
-        studyType: Degree
-        start_date: 2000
-        end_date: 2004
-        score: ""
-        courses: "Notable course or focus"
-        highlights:
-          - Description 1.
+      - institution: University of Michigan
+        location: Ann Arbor, MI
+        area: Nuclear Engineering
+        studyType: M.S.
+        date: 2018
+
+      - institution: Missouri University of Science and Technology
+        location: Rolla, MO
+        area: Engineering Management
+        studyType: M.S.
+        date: 2014
+
+      - institution: United States Military Academy
+        location: West Point, NY
+        area: Mechanical Engineering
+        studyType: B.S.
+        date: 2010
 
     Experience:
-      - company: Example Company
-        position: Your Title
-        location: City, Country
-        start_date: 2020
+      - company: DTRA Nuclear Science and Engineering Research Center (NSERC)
+        position: Deputy Director
+        location: West Point, NY
+        start_date: 2022-09
         end_date: present
-        summary: One line describing the role.
-        highlights:
-          - Description 1.
+
+      - company: Department of Physics and Nuclear Engineering, USMA
+        position: Instructor / Assistant Professor
+        location: West Point, NY
+        start_date: 2018-07
+        end_date: present
+
+      - company: HHC / 85th Civil Affairs Brigade
+        position: Commander
+        location: Fort Hood, TX
+        start_date: 2015-03
+        end_date: 2016-04
+
+      - company: 36th Engineer Brigade
+        position: Brigade Assistant Plans Officer
+        location: Fort Hood, TX / Liberia
+        start_date: 2014-10
+        end_date: 2015-02
+
+      - company: 1-101 Air Assault Division
+        position: S1/S3/XO SFAAT Advisor
+        location: RC-East, Afghanistan
+        start_date: 2012-11
+        end_date: 2013-08
+
+      - company: C/1-32 Cavalry Regiment, 1-101 Air Assault Division
+        position: Infantry Platoon Leader
+        location: Fort Campbell, KY
+        start_date: 2012-01
+        end_date: 2012-11
+
+    Teaching & Research — United States Military Academy:
+      - bullet: >-
+          **Guest Lecturer, Strategic Nuclear Deterrence and Weapons Effects** (AY24–AY25) —
+          Introduction to Transportation Engineering (CE495); Science and Technology in Policy
+          (PH456); various ROTC detachments.
+
+      - bullet: >-
+          **Course Director/Instructor, Radiation Instrumentation and Shielding (NE452)** (AY22)
+
+      - bullet: >-
+          **Course Director/Instructor, Introduction to Nuclear Reactor Engineering (NE355)** (AY22)
+
+      - bullet: >-
+          **Laboratory Program Director, Core Physics (PH2x5, PH2x6)** (AY20–AY21)
+
+      - bullet: >-
+          **Instructor, Physics I (PH205, PH255)** (AY19–AY20)
+
+      - bullet: >-
+          **Instructor, Physics II (PH206, PH256)** (AY20–AY21)
+
+      - bullet: >-
+          **Capstone and Research Advisor**, PANE/EECS/CME/XE (AY19–AY25) — advised: Probabilistic
+          Volumetric Point Source Localization Using Recursive OctoTree Sub-Voxelization and Kalman
+          Filtering; SCRAM (Scatterable Radiation Monitoring); RADBOT/E2MAPs (semi-autonomous
+          radiation detection robot); machine-learning-enabled gamma-ray and neutron particle
+          discrimination; SPace Engineering and Applied Research (SPEAR); Outdoor High Energy Laser
+          Laboratory (O-HELL).
 
     Publications:
-      - title: Example publication title
+      - title: Silicon-on-Uranium-Oxide Substrate for Single Event Upset Evaluation
         authors:
           - David Fobar
-        publisher: Publisher / venue
-        releaseDate: 2020-01-01
-        url:
-        summary: One line describing the publication.
+          - K. Filip
+          - S. Vitale
+          - W. Koch
+        publisher: Journal of Radiation Effects Research and Engineering, Vol. 44
+        releaseDate: 2025-01-01
+        summary: >-
+          Discusses a novel method of preparing microelectronics for radiation hardness testing.
+          The work is purely computational at this time and pending submission for patent review.
 
-    Skills:
-      - name: Example skill area
-        level: Level
-        icon: fa-solid fa-hashtag
-        keywords: "keyword one, keyword two"
+      - title: Development of a Pulsed UV-LED Calibration Technique for Scintillating Detectors
+        authors:
+          - T. Halbert
+          - David Fobar
+        publisher: Journal of Radiation Effects Research and Engineering, Vol. 44
+        releaseDate: 2025-01-01
+        summary: >-
+          Introduces a method of conducting source-less energy calibration of radiation detectors
+          using a small pulsed LED.
 
-    Languages:
-      - name: English
-        summary: "Fluent"
+      - title: A Machine Learning Approach to a Multidetector Array Response Function for Nuclear Search
+        authors:
+          - David Fobar
+          - W. Vanderlip
+          - W. Koch
+          - P. Chapman
+        publisher: IEEE Transactions on Nuclear Science
+        releaseDate: 2022-08-01
+        summary: >-
+          Investigated the novel use of machine learning to project a unit vector from an
+          array of radiation detectors back to a point source.
+
+      - title: Considerations for Training an Artificial Neural Network for Particle Type Identification
+        authors:
+          - David Fobar
+          - A.S. Wilhelm
+          - L. Phillips
+          - P. Chapman
+        publisher: IEEE Transactions on Nuclear Science
+        releaseDate: 2021-09-01
+        summary: >-
+          Used machine learning to conduct pulse shape discrimination between neutron and
+          gamma-ray radiation particles interacting in an organic scintillating radiation detector.
+
+      - title: Robotic delivery of laser-induced breakdown spectroscopy for sensitive chlorine measurement in dry cask storage systems
+        authors:
+          - David Fobar
+          - X. Xiao
+          - M. Burger
+          - S. Le Berre
+          - A. Motta
+          - I. Jovanovic
+        publisher: Spectrochimica Acta Part B, Atomic Spectroscopy
+        releaseDate: 2018-11-01
+        summary: >-
+          Developed a method of remotely characterizing chlorine deposition on the surface of
+          stainless steel using dual-pulse LIBS for the in-situ inspection of dry-cask storage
+          canisters of spent nuclear fuel.
+
+      - title: Measurement of chlorine concentration on steel surfaces via fiber-optic laser-induced breakdown spectroscopy in double-pulse configuration
+        authors:
+          - X. Xiao
+          - S. Le Berre
+          - David Fobar
+          - M. Burger
+          - P. Skrodzki
+          - K. Hartig
+          - A. Motta
+          - I. Jovanovic
+        publisher: Spectrochimica Acta Part B, Atomic Spectroscopy
+        releaseDate: 2018-03-01
+        summary: >-
+          Developed a method of characterizing chlorine deposition on the surface of stainless
+          steel using dual-pulse laser induced breakdown spectroscopy.
+
+    Conference Presentations & Publications:
+      - bullet: >-
+          **Reconstructing Nuclear Fallout Fields with Scatterable Dosimeters** — K. Filip, D.
+          Fobar, S. Ague. 2024 IEEE Long Island Systems, Applications and Technology Conference.
+          Documented the wireless infrastructure and data processing necessary to localize
+          sensors using differential time-of-arrival, filtered with a Kalman filter.
+
+      - bullet: >-
+          **Gamma ray directionality from a tightly packed scintillator array** — D. Fobar, W.
+          Koch, T. Bruff, P. Chapman. Presentation at SORMA XIX, May 2023. Supplements the RADBOT
+          capstone and extends the Aug 2022 published work, using a physics-informed loss
+          function with probabilistic weighting of source location.
+
+      - bullet: >-
+          **Demonstration of a Low Power Imaging System for a Portable Time Projection Chamber** —
+          W. Koch, D. Fobar, T. Bruff, P. Chapman. Presentation at HEART, April 2023; pending
+          publication in JRERE. Aims to provide real-time localization of fast neutron sources, a
+          key indicator for special nuclear material.
+
+      - bullet: >-
+          **Unsupervised Machine Learning Approaches to Nuclear Particle Type Classification** —
+          N. Liebers, J. Huckleberry, D. Ruiz, D. Fobar, P. Chapman. IEEE LISAT Conference
+          Proceedings, May 2022. An unsupervised ML algorithm developed by cadets during a joint
+          EECS/PANE independent research project.
+
+    Other Publications:
+      - bullet: >-
+          **The Imperative of Nuclear Literacy in Military Education: Insights from the NSERC
+          Nuclear Deterrence Staff Ride** — D. Fobar, T. Halbert. *Countering-WMD*, Fall/Winter 2025.
+
+      - bullet: >-
+          **Reconstructing Fallout Distributions: Using Convolutional Neural Networks to
+          Reconstruct Nuclear Fallout Distributions from SCatterable RAdiation Monitors (SCRAM)**
+          — K. Filip, D. Fobar, T. Halbert, S. Ague. *Countering-WMD*, Summer/Fall 2024.
+
+      - bullet: >-
+          **Optimizing the Teaching of Technical Computing for C-WMD at West Point** — A.S.
+          Wilhelm, L. Phillips, D. Fobar. *Countering-WMD*, Summer/Fall 2020.
+
