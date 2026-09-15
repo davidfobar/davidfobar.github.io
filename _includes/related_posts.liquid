@@ -1,0 +1,20 @@
+{% if page.related_posts_category %}
+{% assign related_posts = site.categories[page.related_posts_category] %}
+{% if related_posts and related_posts.size > 0 %}
+{% assign sorted_related_posts = related_posts | sort: "date" | reverse %}
+<div class="related-posts mt-4">
+<h3>Updates</h3>
+<ul class="post-list">
+{% for post in sorted_related_posts %}
+<li>
+<h4 class="mb-0">
+<a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+</h4>
+<p class="post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
+<p>{{ post.description }}</p>
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+{% endif %}
