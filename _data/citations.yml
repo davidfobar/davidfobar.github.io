@@ -1,0 +1,5 @@
+# Cache of Google Scholar citation counts, populated by bin/update_scholar_citations.py.
+# Left empty until you run that script against your own Scholar profile.
+metadata:
+  last_updated:
+papers: {}

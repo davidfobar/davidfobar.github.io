@@ -1,0 +1,69 @@
+cv:
+  name: David Fobar
+  label: Your Title
+  email: you@example.com
+  location: Your City, State
+  image: ""
+  summary: One or two sentences describing who you are and what you do.
+
+  social_networks:
+    - network: X
+      username: example
+    - network: GitHub
+      username: example
+    - network: LinkedIn
+      username: example
+
+  address:
+    street:
+    city:
+    region:
+    postalCode:
+    countryCode:
+
+  # Each section below is an example of one entry. Replicate a block to add
+  # another entry of the same kind, or add a new "SectionName:" key for a
+  # section type not shown here (see docs/CUSTOMIZE.md upstream for the
+  # full list of supported section schemas).
+  sections:
+    Education:
+      - institution: Example University
+        location: City, Country
+        url: https://example.edu
+        area: Field of study
+        studyType: Degree
+        start_date: 2000
+        end_date: 2004
+        score: ""
+        courses: "Notable course or focus"
+        highlights:
+          - Description 1.
+
+    Experience:
+      - company: Example Company
+        position: Your Title
+        location: City, Country
+        start_date: 2020
+        end_date: present
+        summary: One line describing the role.
+        highlights:
+          - Description 1.
+
+    Publications:
+      - title: Example publication title
+        authors:
+          - David Fobar
+        publisher: Publisher / venue
+        releaseDate: 2020-01-01
+        url:
+        summary: One line describing the publication.
+
+    Skills:
+      - name: Example skill area
+        level: Level
+        icon: fa-solid fa-hashtag
+        keywords: "keyword one, keyword two"
+
+    Languages:
+      - name: English
+        summary: "Fluent"

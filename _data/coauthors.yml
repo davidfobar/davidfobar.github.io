@@ -1,0 +1,11 @@
+# Maps a bibtex author surname (lowercase) to known name variants and a link.
+# jekyll-scholar uses this to auto-link co-authors in the publications list.
+# Add one block per co-author; replicate the pattern below for more.
+
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
