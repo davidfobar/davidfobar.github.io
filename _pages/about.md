@@ -6,7 +6,7 @@ subtitle: Engineer. Educator. Officer. Maker.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: about/prof_pic.jpg
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
