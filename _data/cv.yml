@@ -21,6 +21,16 @@ cv:
   # (teaching detail, conference talks, etc.) use that `bullet:` shape.
   sections:
     Education:
+      - institution: Colorado School of Mines
+        location: Golden, CO
+        area: Robotics
+        studyType: Ph.D. Candidate
+        date: present
+        highlights:
+          - >-
+            Research: adversarially resilient decentralized Gaussian processes for
+            multi-agent heterogeneous teams.
+
       - institution: University of Michigan
         location: Ann Arbor, MI
         area: Nuclear Engineering
@@ -40,17 +50,27 @@ cv:
         date: 2010
 
     Experience:
+      - company: Colorado School of Mines
+        position: Ph.D. Candidate, Robotics
+        location: Golden, CO
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - >-
+            Developing adversarially resilient decentralized Gaussian processes for
+            multi-agent heterogeneous teams.
+
       - company: DTRA Nuclear Science and Engineering Research Center (NSERC)
         position: Deputy Director
         location: West Point, NY
         start_date: 2022-09
-        end_date: present
+        end_date: 2025-06
 
       - company: Department of Physics and Nuclear Engineering, USMA
         position: Instructor / Assistant Professor
         location: West Point, NY
         start_date: 2018-07
-        end_date: present
+        end_date: 2025-06
 
       - company: HHC / 85th Civil Affairs Brigade
         position: Commander
