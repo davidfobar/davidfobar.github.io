@@ -6,7 +6,7 @@ subtitle: Engineer. Educator. Officer. Maker.
 
 profile:
   align: right
-  image: about/prof_pic.jpg
+  image: about/platypus_worx_logo.png
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -26,5 +26,3 @@ By any reasonable engineering standard, the platypus shouldn't work. It's a mamm
 That's the idea behind Platypus Worx. My own background is a similarly improbable stitching-together of parts: mechanical and nuclear engineering, radiation detection, robotics, PCB design, amateur telescope making and astronomy, recreational powerlifting, teaching, and service as a military officer. None of these are obviously the same discipline, and on paper the combination looks like it shouldn't cohere into much of anything. But like the platypus, the whole turns out to be more capable than any one part would suggest — and the most interesting work tends to happen right where those threads cross.
 
 This site is where that work gets documented: finished projects, work in progress, and the peer-reviewed research that comes out of it. Find more on [GitHub](https://github.com/PlatypusWorx).
-
-<small>Platypus photo by Charles J. Sharp, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.</small>
