@@ -14,7 +14,7 @@ Delete these instructions when you are done, or leave them. It does not matter.
 What you wanted at the start, and what is actually live now.
 Name one thing you dropped or added along the way, and why.
 
-*Your answer here.*
+I wanted to build a website that I can use to document my personal projects - mostly for myself, but also as an extension to a resume. I also wanted to have a place to easily link my publications. As teh project progressed, I realized that I could make some of the content active, for example the automated foucault test post includes an applet that I find very useful for understanding the mirror tester.
 
 ---
 
@@ -28,7 +28,7 @@ Say which you picked, what the alternative was, and what you gave up by not taki
 
 "There was no alternative" is not an answer. Find the fork.
 
-*Your answer here.*
+I debated using jekyll or not, I ultimately decided that I wanted to focus on content rather than creation. 
 
 ---
 
@@ -42,7 +42,7 @@ If it genuinely never happened, say so plainly, and then say what you would have
 check in order to notice. Being honest here costs you far less than a story you cannot
 defend when you record your video.
 
-*Your answer here.*
+I asked Claude to generate a post about Squatober, and I did not provide enough context, and it clearly did not have the context within its training, so the post was completely off the target. Rather than fight it, I choose to omit the post altogether, maybe I will put something together later. But in the spirit of the project, all of the current posts are 100% generated.
 
 ---
 
@@ -55,7 +55,7 @@ A check that could not have failed is not a check.
 
 Link to your `verification/` folder.
 
-*Your answer here.*
+I built the site locally, and incrementially pushed to github. I also maintained a local conversation summary file that I had claude generate. The summary paired with the commit messages helped troubleshoot some issues.
 
 ---
 
@@ -66,4 +66,4 @@ fully understand.
 
 What would you do next, and how would you find out?
 
-*Your answer here.*
+I wanted to use the URL platypusworx.net, but I still need to figure out how to get the content at that URL. I also have a few more posts in mind with interactive content to help describe the issue to be solved in the project. I also have many more projects to add.
