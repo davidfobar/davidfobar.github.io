@@ -82,5 +82,5 @@ It also gives the Sorinex banner somewhere to hang that isn't a stud.
 
 ### Posts
 
-- [Building the Lifting Platform]({{ '/blog/2026/lifting-platform/' | relative_url }}): the 8' × 6' platform: two layers of 3/4" plywood and an oak center glued with PL Premium, Eleiko rubber tiles on the lifting stations, and a welded angle-iron frame.
-- [The Big Three: 425 / 355 / 475]({{ '/blog/2026/big-three/' | relative_url }}): squat, bench, and deadlift PRs from the garage, October 2025 to February 2026, for a 1,255 lb total.
+- [Building the Lifting Platform]({% post_url 2025-01-05-lifting-platform %}): the 8' × 6' platform: two layers of 3/4" plywood and an oak center glued with PL Premium, Eleiko rubber tiles on the lifting stations, and a welded angle-iron frame.
+- [The Big Three: 425 / 355 / 475]({% post_url 2026-02-28-big-three %}): squat, bench, and deadlift PRs from the garage, October 2025 to February 2026, for a 1,255 lb total.

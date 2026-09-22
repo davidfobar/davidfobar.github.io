@@ -171,7 +171,7 @@ Remove it in precisely the right radial distribution and you have a telescope; r
 
 Which is why the test gear matters as much as the grinding, and why it's a project of its own.
 
-The [Automated Foucault]({{ '/projects/3_automated_foucault/' | relative_url }}) tester covers the first half. The Foucault test is a genuinely remarkable piece of instrumentation — a pinhole, a razor blade, and a way to move them turns a sub-micron surface error into a visible pattern of light and shadow. I wrote up [how it actually works, with real numbers]({{ '/blog/2026/foucault-test-explained/' | relative_url }}), because the geometry is more elegant than most explanations let on.
+The [Automated Foucault]({{ '/projects/3_automated_foucault/' | relative_url }}) tester covers the first half. The Foucault test is a genuinely remarkable piece of instrumentation — a pinhole, a razor blade, and a way to move them turns a sub-micron surface error into a visible pattern of light and shadow. I wrote up [how it actually works, with real numbers]({% post_url 2026-09-16-foucault-test-explained %}), because the geometry is more elegant than most explanations let on.
 
 But Foucault is a zonal test — it reads the surface a ring at a time, through a knife edge, with your eye or a camera as the detector. Getting a fast mirror the last of the way home wants something quantitative across the whole aperture at once, and that means a **Bath interferometer**: a common-path shearing interferometer that's simple enough to build on a bench and precise enough to resolve fringes at a fraction of a wave. Building one and learning to read it is part of the point of choosing f/5. A slower mirror wouldn't have justified it.
 
@@ -185,4 +185,4 @@ The other possibility is that it ends up on [CelestialSync]({{ '/projects/1_cele
 
 ### Posts
 
-- [Casting a Full-Diameter Lap Tool Out of Dental Stone]({{ '/blog/2026/dental-stone-tool/' | relative_url }}) — casting the lap substrate in Velmix die stone straight off the mirror's own face, the 1.9 mm of sagitta that rules out a flat one, and why a lap tool gets no tiles.
+- [Casting a Full-Diameter Lap Tool Out of Dental Stone]({% post_url 2026-09-20-dental-stone-tool %}) — casting the lap substrate in Velmix die stone straight off the mirror's own face, the 1.9 mm of sagitta that rules out a flat one, and why a lap tool gets no tiles.

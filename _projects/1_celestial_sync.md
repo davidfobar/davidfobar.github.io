@@ -45,4 +45,4 @@ The mechanical build and drive electronics are in progress (see the photo above)
 
 ### Posts
 
-- [Homing a Telescope Mount With Nothing But Gravity]({{ '/blog/2026/sensorless-telescope-homing/' | relative_url }}) — a gradual walkthrough of the sensorless homing algorithm above, with an interactive gravity-vector simulation.
+- [Homing a Telescope Mount With Nothing But Gravity]({% post_url 2025-05-20-sensorless-telescope-homing %}) — a gradual walkthrough of the sensorless homing algorithm above, with an interactive gravity-vector simulation.

@@ -41,4 +41,4 @@ Early. The optical model is worked out and validated against exact ray tracing, 
 
 ### Posts
 
-- [The Foucault Test, With Actual Numbers]({{ '/blog/2026/foucault-test-explained/' | relative_url }}) — what the Foucault test actually measures, how far the knife edge really travels, and an interactive ray-traced simulation of the whole thing.
+- [The Foucault Test, With Actual Numbers]({% post_url 2026-09-16-foucault-test-explained %}) — what the Foucault test actually measures, how far the knife edge really travels, and an interactive ray-traced simulation of the whole thing.

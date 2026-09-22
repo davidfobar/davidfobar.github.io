@@ -99,6 +99,6 @@ Worth being clear about what this scoring is *not*: it isn't channelling for gri
 
 ## Next: pitch
 
-The tool is done and waiting on the thing it exists for: a pitch lap poured onto this face. That's the surface that will do the polishing and, eventually, the figuring that the [Foucault test]({{ '/blog/2026/foucault-test-explained/' | relative_url }}) is there to measure.
+The tool is done and waiting on the thing it exists for: a pitch lap poured onto this face. That's the surface that will do the polishing and, eventually, the figuring that the [Foucault test]({% post_url 2026-09-16-foucault-test-explained %}) is there to measure.
 
 That's the next post.
