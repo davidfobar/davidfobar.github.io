@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building the Lifting Platform"
-date: 2026-09-21 12:00:00
+date: 2025-01-05 12:00:00
 description: An 8' × 6' deadlift platform for the garage gym — two layers of 3/4" plywood and an oak center glued up with PL Premium, Eleiko rubber tiles on the lifting stations, and a welded angle-iron frame around the whole thing.
 tags: powerlifting woodworking welding
 categories: home-gym

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Engineer. Educator. Officer. Maker.
+subtitle: Engineer. Educator. Leader. Maker.
 
 profile:
   align: right
@@ -20,6 +20,28 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<!-- pages/about.md -->
+<style>
+/* Match the project category badges: no drop shadow (it left a faint square behind the round
+   transparent logo). */
+.profile img { box-shadow: none; position: relative; }
+.profile figure { position: relative; }
+/* In dark mode, drop a white circle behind the black line art, a few px larger than the artwork
+   itself so the ring/lettering right at the edge doesn't get clipped by the circle. */
+html[data-theme="dark"] .profile figure::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% + 8px);
+  aspect-ratio: 1 / 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #fff;
+  z-index: -1;
+}
+</style>
 
 By any reasonable engineering standard, the platypus shouldn't work. It's a mammal that lays eggs, nurses young without nipples, and hunts by reading electrical signals in the dark with a bill built like a duck's. It carries a venomous spur that nothing else its size bothers evolving. When the first pelt reached Europe, naturalists assumed someone had stitched it together as a hoax. And yet: it works — spectacularly, and on its own terms.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Homing a Telescope Mount With Nothing But Gravity"
-date: 2026-09-16 10:00:00
+date: 2025-05-20 10:00:00
 description: How two accelerometers and an Extended Kalman Filter let an equatorial mount find its way home without encoders or limit switches — walked through gradually, with an interactive simulation.
 tags: kalman-filter robotics astronomy
 categories: celestial-sync

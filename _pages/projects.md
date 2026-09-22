@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Grouped into relevant catagories
 nav: true
 nav_order: 1
 display_categories: [astronomy, automotive, education, powerlifting]
@@ -33,13 +33,32 @@ horizontal: false
   top: 5.5rem;
   padding-top: 2.4rem; /* lines the badge up with the category rule */
 }
+.category-badge .badge-img-wrap {
+  position: relative;
+  display: block;
+}
 .category-badge img {
   width: 100%;
   height: auto;
   opacity: 0.85;
+  position: relative;
 }
-/* The badges are transparent black line art — flip them white in dark mode. */
-html[data-theme="dark"] .category-badge img { filter: invert(1); }
+/* The badges are black line art on a transparent background — keep them as-is in light mode,
+   but in dark mode drop a white circle behind them, a few px larger than the artwork itself so
+   the ring/lettering right at the edge doesn't get clipped by the circle. Anchored to the image's
+   own wrapper (not badge-inner) so it stays centered on the artwork, not the sticky padding. */
+html[data-theme="dark"] .category-badge .badge-img-wrap::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% + 8px);
+  aspect-ratio: 1 / 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #fff;
+  z-index: -1;
+}
 
 .category-body {
   flex: 1 1 auto;
@@ -68,7 +87,9 @@ html[data-theme="dark"] .category-badge img { filter: invert(1); }
   <section class="category-block">
     <div class="category-badge">
       <div class="badge-inner">
-        <img src="{{ '/assets/img/logos/' | append: category | append: '.png' | relative_url }}" alt="Platypus {{ category }} badge" loading="lazy" />
+        <span class="badge-img-wrap">
+          <img src="{{ '/assets/img/logos/' | append: category | append: '.png' | relative_url }}" alt="Platypus {{ category }} badge" loading="lazy" />
+        </span>
       </div>
     </div>
     <div class="category-body">
